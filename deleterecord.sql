@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[deleterecord]
+	@Id UNIQUEIDENTIFIER
+AS
+BEGIN
+    DELETE FROM dbo.Table1 WHERE Id = @Id
+END
